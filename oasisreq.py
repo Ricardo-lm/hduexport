@@ -5,7 +5,7 @@ import json
 jira_url = "Aqui va la url de tu proyecto en Jira"
 auth = ("Aqui va tu correo", "Aqui va el token API")
 query = {
-    "jql": "project = CORE2 AND issuetype = Historia",  # Cambia TU_PROYECTO por la clave de tu proyecto
+    "jql": "project = TU_PROYECTO AND issuetype = Historia",  # Cambia TU_PROYECTO por la clave de tu proyecto
     "maxResults": 100,  # Número máximo de historias que deseas obtener
     "fields": ["summary", "description"]  # Campos que deseas incluir
 }
